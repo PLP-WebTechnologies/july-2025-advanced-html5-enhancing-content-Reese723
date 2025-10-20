@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+ <html lang="en">
+   <head>
+   <meta charset="UTF-8">
+   <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+   <title>Web Page</title>
+<style>
+body {
+	
+	font-family: Arial, sans-serif;
+	background-color: baige;
+}
+section {
+	margin-bottom: 20px;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+th, td {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+}
+th {
+	background-color: #f0f0f0;
+}
+</style>
+</head>
+<body>
+<section>
+<h2>Favorite Language</h2>
+<ul>
+<li>Java</li>
+<li>Python</li>
+<li>Css</li>
+</ul>
+
+<h2>Favorite Color</h2>
+<ol>
+<li>Red</li>
+<li>Blue</li>
+<li>Green</li>
+</ol>
+</section>
+
+<section>
+<h2>Schedule</h2>
+<table>
+<thead>
+<tr>
+<th>Monday</th>
+<th>Tuesday</th>
+<th>Wednesday</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>08:00 AM - 09:00 AM</td>
+<td>09:00 AM - 10:00 AM</td>
+<td>10:00 AM - 11:00 AM</td>
+</tr>
+<tr>
+<td>12:00 PM - 13:00 PM</td>
+<td>13:00 PM - 14:00 PM</td>
+<td>14:00 PM - 15:00 PM</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section>
+<h2>Video</h2>
+<video width="400" height="300" controls>
+<source src="video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+<h2>Audio</h2>
+<audio controls>
+<source src="audio.mp3" type="audio/mpeg">
+Your browser does not support the audio tag.
+</audio>
+
+<h2>Image</h2>
+<image width="400" height="300" controls>
+<source src="32.png" type="image/png">
+</image>
+</section>
+
+<section>
+<h2>Contact Us</h2>
+<form>
+<fieldset>
+<legend>Personal Details</legend>
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required minlength="2" maxlength="20" pattern="[a-zA-Z]+">
+<br></br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+<br></br>
+<label for="phone">Phone:</label>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+</fieldset>
+
+<fieldset>
+<legend>Message</legend>
+<label for="message">Message:</label>
+<textarea id="message" name="message" required minlength="10" maxlength="500"></textarea>
+</fieldset>
+
+<input type="submit" value="Submit">
+</form>
+</section>
+</body>
+</html>
